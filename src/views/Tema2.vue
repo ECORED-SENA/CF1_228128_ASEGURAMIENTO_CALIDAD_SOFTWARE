@@ -7,14 +7,15 @@
         span 2
       h1 Fase de definición de requisitos
 
-    .row.justify-content-center.mb-4  
-      .col-lg-4.my-3
+    .row.justify-content-center  
+      .col-lg-8.my-3
         p(data-aos="fade-down") En esta primera fase del ciclo de vida del #[i software], #[b.tb también llamada fase de análisis], se recopila, se examina y se formulan los requisitos del cliente, así como la verificación de las posibles restricciones que se puedan aplicar.
-      .col-lg-3.my-3
+
+        .bg2.p-4.brad(data-aos="flip-down")
+          p(data-aos="fade-down").mb-0 Por eso, la etapa de análisis en el ciclo de vida del #[i software] corresponde al proceso a través del cual se intenta descubrir qué es lo que realmente se necesita y se llega a una comprensión adecuada de los requerimientos del sistema (las características que el sistema debe poseer).        
+      .col-lg-4.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/3.svg', alt='')
-      .col-lg-5.my-3
-        .bg2.p-4.brad.j.h-100(data-aos="flip-down")
-          p(data-aos="fade-down").mb-0 Por eso, la etapa de análisis en el ciclo de vida del software corresponde al proceso a través del cual se intenta descubrir qué es lo que realmente se necesita y se llega a una comprensión adecuada de los requerimientos del sistema (las características que el sistema debe poseer).
+
 
     .row.justify-content-center.align-items-center.mb-4  
       .col-lg-5.my-3
@@ -31,7 +32,7 @@
     p(data-aos="fade-down").mb-5 En la siguiente tabla, se describen las actividades y los artefactos que se realizan en la fase de definición de requisitos.
 
     .row.justify-content-center
-      .col-lg-8(data-aos="fade-down") 
+      .col-lg-12(data-aos="fade-down") 
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1.
           span Actividades y artefactos de la fase de definición de requisitos

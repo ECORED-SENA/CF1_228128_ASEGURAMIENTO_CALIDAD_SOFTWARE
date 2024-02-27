@@ -7,6 +7,7 @@
         span 4
       h1 Ingeniería de requisitos
     
+    p(data-aos="fade-down").mb-4 Las siguientes son definiciones de ingeniería de requisitos de algunos autores.    
     .row.justify-content-center.mb-4           
       .col-lg-4.my-3(data-aos="fade-left")
         .bloque-texto-b.bg8.brad.p-4.h-100
@@ -35,7 +36,7 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/18.png', alt='')  
 
       .col-lg-8.my-3
-        p(data-aos="fade-down") El término IR “ingeniería de requisitos” ha surgido para englobar los procesos de desarrollo y gestión de requisitos en el ciclo de vida del software, el primer término (ingeniería), se enfoca en las actividades de obtención, análisis, especificación y validación de los requisitos que permitirá alcanzar los objetivos del negocio y el segundo (requisitos), está centrado en la administración de los mismos y tiene como propósito central, la gestión de los cambios y la trazabilidad, de esta forma la IR proporciona el mecanismo apropiado para:
+        p(data-aos="fade-down") El término IR “ingeniería de requisitos” ha surgido para englobar los procesos de desarrollo y gestión de requisitos en el ciclo de vida del #[i software], el primer término (ingeniería), se enfoca en las actividades de obtención, análisis, especificación y validación de los requisitos que permitirá alcanzar los objetivos del negocio y el segundo (requisitos), está centrado en la administración de los mismos y tiene como propósito central, la gestión de los cambios y la trazabilidad, de esta forma la IR proporciona el mecanismo apropiado para:
 
         ul.lista-ul.fa-ul.mb-0.ps-5
           li 
@@ -60,7 +61,7 @@
             i.far.fa-file-code.color1
             | Administrar los requisitos conforme éstos se transforman en un sistema operacional.         
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4.mv
       .col-lg-7.my-3(data-aos="fade-right")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg9")
           div(titulo="Etapas de la ingeniería de requisitos")
@@ -90,11 +91,11 @@
                 | Profundizar en el conocimiento del dominio del problema puede facilitar el proceso de construir un producto útil para clientes y usuarios (Durán, 2000). 
             p En esta fase, el analista proporciona un sistema de retroalimentación que refina el entendimiento conseguido en la etapa de obtención. 
               
-      .col-lg-5.my-3
+      .col-lg-5.my-3.mov
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/19.png', alt='')  
 
     .row.justify-content-center.mb-4
-      .col-lg-5.my-3
+      .col-lg-5.my-3.mov
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/20.png', alt='')      
       .col-lg-7.my-3(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg9")

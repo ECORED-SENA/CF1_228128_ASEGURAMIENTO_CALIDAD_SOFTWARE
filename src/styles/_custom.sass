@@ -63,7 +63,7 @@
   height: auto !important 
 
 .img-mov
-  @media (max-width: 810px)
+  @media (max-width: 1400px)
     display: block
     margin: auto
     width: auto
@@ -110,29 +110,32 @@
   background-color: #DCECFE
 
 .bgh
-  background-color:#1682FB !important
-  border-top: 2px solid #273A89 !important
+  background-color:#273A89 !important
+  border-top: 2px solid #1682FB !important
   *
-    color: #12263F !important
+    color: white !important
 
 .bgt
-  background-color: #DCECFE !important 
-
-td, 
-  border: 1px solid white !important   
+  background-color: #dcecfe46 !important 
 
 .t1
   background-color: #273A89
-  color: white !important   
+  color: white !important  
+
+.bgw
+  background-color: white
+  color: #12263F !important
 
 .bg4
   background-image: url(../assets/curso/temas/8.png)
   background-repeat: no-repeat
   background-size: 85% 100%
   background-position: center right
-  @media (max-width: 810px)
+  @media (max-width: 1400px)
     background-color: #3EE2A8 !important
-    background-size: 0% 0%
+    background-size: 0% 0%      
+    padding: 1rem     
+    border-radius: 10px
 
 .bg5
   background: url('../assets/curso/temas/9.png')
@@ -223,27 +226,30 @@ td,
   background-color: #DCECFE  !important 
 .acordion__accion__btn--a i
   color: #273A89 
-.tarjeta.bg9.acordion__activo i            
-  color: #FFCE00   
+
+.acordion__accion__btn--a
+  background-color: #FFCE00 !important  
+
 
 .bg10
   background-image: url(../assets/curso/temas/22.png)
   background-repeat: no-repeat
   background-size: 85% 78%
   background-position: center right
-  @media (max-width: 810px)
-    background-color: #3EE2A8 !important
-    background-size: 0% 0%  
+  @media (max-width: 1400px)
+    background-color: #BAE9D9 !important
+    background-size: 0% 0%
+    padding: 1rem  
 
 .bg11
   background-image: url(../assets/curso/temas/23.png)
   background-repeat: no-repeat
   background-size: 100% 95%
   background-position: center bottom
-  @media (max-width: 810px)
-    background-color: #3EE2A8 !important
+  @media (max-width: 1400px)
+    background-color: #BAE9D9 !important
     background-size: 0% 0%      
-
+    padding: 1rem 
 .t5  
   background-color: #1682FB  
 
@@ -319,3 +325,81 @@ td,
 .tabs-b.color-acento-contenido .tabs-b__tab--active 
   border-top-color: #FFCE00!important 
   background-color: #E1F6EF  
+
+.list 
+  width: 100%
+  display: flex !important
+  &__item 
+    &__bulletNumber 
+      position: relative
+      width: 50px
+      height: 50px
+      margin-right: 1rem
+      text-align: center
+      border-radius: 50%
+      background-color: #339CE9
+      span 
+        color: red
+        font-weight: 700
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        font-size: 30px    
+    
+    &__number 
+      position: relative
+      margin-right: 0.5rem
+      span 
+        color:#BF3976
+        font-size: 13pt
+        font-weight: 700
+        line-height: 1.2      
+    
+    &__icon 
+      position: relative
+      width: 60px
+      margin-right: -6rem
+      padding-left: 5px
+      margin-top: -20px
+      top: -10%
+      img 
+        width: 60px
+        vertical-align: middle
+        
+  &__txt 
+    p:first-child,
+    h3:first-child 
+      margin-top: 8.5px 
+      margin-left: 1rem
+      padding-left: 2rem  
+
+.bgicon
+  background-color: #8DEECC
+  border-radius: 10px
+
+.bg16
+  background-color: #E1F6EF
+
+.bg17
+  background-image: url(../assets/curso/temas/52.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center    
+
+.bg18
+  background-image: url(../assets/curso/temas/53.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center      
+
+.bloque-texto-b i
+  font-size: 1.5rem  
+
+.mov
+  @media screen and (max-width: 992px)
+    display: none  
+
+.mv
+  @media screen and (max-width: 992px)
+    margin-bottom: -4rem !important

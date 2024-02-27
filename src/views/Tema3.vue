@@ -13,13 +13,13 @@
       .col.my-3
         p(data-aos="fade-down") Un requisito es una #[mark.t1 “condición o capacidad que necesita el usuario para resolver un problema o conseguir un objetivo determinado” (IEEE, 1990)]. 
 
-        p(data-aos="fade-down").mb-0 Los requisitos comunican las expectativas de los consumidores de productos software; de otra parte, los requisitos pueden ser obvios o estar ocultos, conocidos o desconocidos, esperados o inesperados, desde el punto de vista del cliente. 
+        p(data-aos="fade-down").mb-0 Los requisitos comunican las expectativas de los consumidores de productos #[i software]; de otra parte, los requisitos pueden ser obvios o estar ocultos, conocidos o desconocidos, esperados o inesperados, desde el punto de vista del cliente. 
 
     Separador 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.1  Importancia de los requisitos 
 
-    p(data-aos="fade-down").mb-5 Los requisitos cobran importancia dentro del ciclo de vida del software, porque:
+    p(data-aos="fade-down").mb-5 Los requisitos cobran importancia dentro del ciclo de vida del #[i software], porque:
 
     .row.bg5.align-items-center
       .col-lg-12.col-12.px-lg-5.px-4 
@@ -57,52 +57,76 @@
                       p Cuando se selecciona un objeto en el escenario, habiendo pulsado el botón mover, en el objeto se mostrarán 3 flechas que representan los 3 ejes mencionados anteriormente. Si se da clic sostenido en dichas flechas y se mueve el #[i mouse] se traslada en línea recta el objeto en el escenario en el eje de coordenadas seleccionado, como se representa en la siguiente figura.   
 
                 .row.justify-content-center.align-items-center.p-2
-                  .col-lg-10.col-md-auto
-                    .t2                  
+                  .col-lg-4.mb-4.mb-md-0
+                    img.img-a.img-t(src='@/assets/curso/temas/54.png') 
+                  .col-lg-7.col-md-auto
+                    .t2.pe-5                 
                       h4.t3.mb-4 Completo 
                       p Un requerimiento está completo si no necesita ampliar detalles en su redacción, es decir, si se proporciona la información suficiente para su comprensión.   
 
                 .row.justify-content-center.align-items-center.p-2
-                  .col-lg-10.col-md-auto
-                    .t2                  
+                  .col-lg-4.mb-4.mb-md-0
+                    img.img-a.img-t(src='@/assets/curso/temas/55.png') 
+                  .col-lg-7.col-md-auto
+                    .t2.pe-5                 
                       h4.t3.mb-4 Consistente 
                       p Un requerimiento es consistente si no es contradictorio con otro requerimiento.
 
                 .row.justify-content-center.align-items-center.p-2
-                  .col-lg-10.col-md-auto
-                    .t2                  
+                  .col-lg-4.mb-4.mb-md-0
+                    img.img-a.img-t(src='@/assets/curso/temas/56.png') 
+                  .col-lg-7.col-md-auto
+                    .t2.pe-5                 
                       h4.t3.mb-4 Correcto 
                       p Acuerdo entre dos partes. Contiene una sola idea.   
 
                 .row.justify-content-center.align-items-center.p-2
-                  .col-lg-10.col-md-auto
-                    .t2                  
+                  .col-lg-4.mb-4.mb-md-0
+                    img.img-a.img-t(src='@/assets/curso/temas/57.png') 
+                  .col-lg-7.col-md-auto
+                    .t2.pe-5                 
                       h4.t3.mb-4 Factible
                       p El requerimiento deberá de ser totalmente factible y dentro de presupuesto, calendario y otras restricciones, si se tiene alguna duda de su factibilidad, hay que investigar, generar pruebas de concepto para saber su complejidad y factibilidad, si aun así el requerimiento es no factible, hay que revisar la visión del sistema y replantear el requerimiento.  
 
                 .row.justify-content-center.align-items-center.p-2
-                  .col-lg-10.col-md-auto
-                    .t2                  
+                  .col-lg-4.mb-4.mb-md-0
+                    img.img-a.img-t(src='@/assets/curso/temas/58.png') 
+                  .col-lg-7.col-md-auto
+                    .t2.pe-5                 
                       h4.t3.mb-4 Modificable 
                       p Los cambios en los requisitos deben hacerse de manera sistemática, y debe tenerse en cuenta su impacto en otros requisitos.   
 
                 .row.justify-content-center.align-items-center.p-2
-                  .col-lg-10.col-md-auto
-                    .t2                  
+                  .col-lg-4.mb-4.mb-md-0
+                    img.img-a.img-t(src='@/assets/curso/temas/59.png') 
+                  .col-lg-7.col-md-auto
+                    .t2.pe-5                  
                       h4.t3.mb-4 Priorizado 
                       p Categorizar el requerimiento nos ayuda a saber el grado de necesidad del mismo: esencial/crítico, deseado, opcional verificable.
 
                 .row.justify-content-center.align-items-center.p-2
-                  .col-lg-10.col-md-auto
-                    .t2                  
+                  .col-lg-4.mb-4.mb-md-0
+                    img.img-a.img-t(src='@/assets/curso/temas/60.png') 
+                  .col-lg-7.col-md-auto
+                    .t2.pe-5                  
                       h4.t3.mb-4 Verificable
                       p Si un requerimiento no se puede comprobar, entonces, ¿cómo se sabe si se cumplió con él o no? Debe ser posible verificarlo ya sea por inspección, análisis de prueba o demostración. Cuando se escriba un requerimiento, se deberán determinar los criterios de aceptación.   
 
                 .row.justify-content-center.align-items-center.p-2
-                  .col-lg-10.col-md-auto
-                    .t2                  
+                  .col-lg-4.mb-4.mb-md-0
+                    img.img-a.img-t(src='@/assets/curso/temas/61.png') 
+                  .col-lg-7.col-md-auto
+                    .t2.pe-5
+                      h4.t3.mb-4 Rastreable 
+                      p La especificación se debe organizar de tal forma que cada función del sistema se pueda rastrear hasta su conjunto de requerimientos correspondiente. Facilita las pruebas y la validación del diseño.   
+
+                .row.justify-content-center.align-items-center.p-2
+                  .col-lg-4.mb-4.mb-md-0
+                    img.img-a.img-t(src='@/assets/curso/temas/62.png') 
+                  .col-lg-7.col-md-auto
+                    .t2.pe-5                 
                       h4.t3.mb-4 Claro 
-                      p Un requerimiento es conciso si es fácil de leer y entender, su redacción debe ser simple y clara para quienes lo consulten en un futuro.                                        
+                      p Un requerimiento es conciso si es fácil de leer y entender, su redacción debe ser simple y clara para quienes lo consulten en un futuro.                                                              
 
         Separador 
         #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")

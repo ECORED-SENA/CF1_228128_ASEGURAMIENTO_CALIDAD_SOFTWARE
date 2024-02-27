@@ -7,7 +7,7 @@
         span 1
       h1 Ciclo de vida del <i>software</i>
 
-    p(data-aos="fade-down").mb-5 También conocido como (SDLC o Systems Development Life Cycle), es el proceso que se sigue para construir y hacer evolucionar un determinado #[i software]. El ciclo de vida permite iniciar una serie de fases mediante las cuales se procede a la validación y al desarrollo del #[i software] garantizando que se cumplan los requisitos para la aplicación y verificación de los procedimientos de desarrollo; para ello, se utilizan métodos del ciclo del #[i software], que indican distintos pasos a seguir para el desarrollo de un producto.       
+    p(data-aos="fade-down").mb-5 También conocido como (#[i SDLC o Systems Development Life Cycle]), es el proceso que se sigue para construir y hacer evolucionar un determinado #[i software]. El ciclo de vida permite iniciar una serie de fases mediante las cuales se procede a la validación y al desarrollo del #[i software] garantizando que se cumplan los requisitos para la aplicación y verificación de los procedimientos de desarrollo; para ello, se utilizan métodos del ciclo del #[i software], que indican distintos pasos a seguir para el desarrollo de un producto.       
 
     .row.justify-content-center.align-items-center.bg11.px-3(data-aos="fade-left")
       .col-lg-12
@@ -16,22 +16,22 @@
             img.img-mov(data-aos="zoom-in")(src='@/assets/curso/temas/21.png')     
           .col-lg-9(data-aos="fade-down") 
             p(data-aos="fade-down") Si bien existen diferentes ciclos de desarrollo de #[i software], la normativa ISO/IEC/IEEE 12207:2017 establece que: 
-            h5(data-aos="fade-down").px-4.j Es un marco común para los procesos del ciclo de vida de los programas informáticos, con una terminología bien definida, a la que pueda remitirse la industria del #[i software]. Contiene procesos, actividades y tareas aplicables durante la adquisición, el suministro, el desarrollo, el funcionamiento, el mantenimiento o la eliminación de sistemas, productos y servicios informáticos. Estos procesos del ciclo de vida se llevan a cabo mediante la participación de los interesados, con el objetivo final de lograr la satisfacción del cliente (s.p.).  
+            h5(data-aos="fade-down").color2.px-4 Es un marco común para los procesos del ciclo de vida de los programas informáticos, con una terminología bien definida, a la que pueda remitirse la industria del #[i software]. Contiene procesos, actividades y tareas aplicables durante la adquisición, el suministro, el desarrollo, el funcionamiento, el mantenimiento o la eliminación de sistemas, productos y servicios informáticos. Estos procesos del ciclo de vida se llevan a cabo mediante la participación de los interesados, con el objetivo final de lograr la satisfacción del cliente (s.p.).  
 
     p(data-aos="fade-down").my-5 A continuación, se indican cuáles son los elementos que integran un ciclo de vida:
 
-    .row.justify-content-center.mb-5 
-      .col-lg-5(data-aos="fade-left")
+    .row.justify-content-center.mb-4 
+      .col-lg-5.my-3(data-aos="fade-left")
         .bg8.text-white.brad.h-100.p-4
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/24.png', alt='')
 
-          h4(data-aos="fade-down") #[mark.px-2.t5 Fases]           
+          h4(data-aos="fade-down") #[mark.px-2.bgw Fases]           
           p(data-aos="fade-down") Una fase es un conjunto de actividades relacionadas con un objetivo en el desarrollo del proyecto. Se construye agrupando tareas (actividades elementales) que pueden compartir un tramo determinado del tiempo de vida de un proyecto. La agrupación temporal de tareas impone requisitos temporales correspondientes a la asignación de recursos (humanos, financieros o materiales).                       
-      .col-lg-5(data-aos="fade-right")
+      .col-lg-5.my-3(data-aos="fade-right")
         .bg8.text-white.brad.h-100.p-4
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/25.png', alt='')
 
-          h4(data-aos="fade-down") #[mark.px-2.t5 Entregables]           
+          h4(data-aos="fade-down") #[mark.px-2.bgw Entregables]           
           p(data-aos="fade-down") Son los productos intermedios que generan las fases. Pueden ser materiales o inmateriales (documentos, #[i software]). Los entregables permiten evaluar la marcha del proyecto mediante comprobaciones de su adecuación o no a los requisitos funcionales y de condiciones de realización previamente establecido.      
 
 
@@ -53,7 +53,7 @@
                       h4.t3.mb-4 FASE PLANIFICACIÓN: 
                       p En esta primera fase se realiza el planteamiento del problema, se definen alcances y objetivos del #[i software].
 
-                      p Objetivos: estudio de viabilidad, realizar planificación detallada.                  
+                      p #[b Objetivos:] estudio de viabilidad, realizar planificación detallada.                  
                   .col-lg-4.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/26_1.png') 
      
@@ -63,7 +63,7 @@
                       h4.t3.mb-4 FASE ANÁLISIS (definición de requisitos): 
                       p Esta fase busca definir los requisitos que son los que dirigirán el desarrollo del proyecto de #[i software]. 
 
-                      p Objetivos: conocer los requisitos, asegurar que los requisitos son alcanzables, formalizar acuerdo con el cliente.                  
+                      p #[b Objetivos:] conocer los requisitos, asegurar que los requisitos son alcanzables, formalizar acuerdo con el cliente.                  
                   .col-lg-4.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/27.png') 
 
@@ -73,7 +73,7 @@
                       h4.t3.mb-4 FASE DISEÑO:  
                       p En esta fase se estudian posibles opciones de implementación para el #[i software] que hay que construir, estructura general del mismo.
 
-                      p Objetivos: identificar soluciones tecnológicas, asignar recursos materiales, proponer identificar y seleccionar, establecer métodos de validación, ajustar especificaciones.                  
+                      p #[b Objetivos:] identificar soluciones tecnológicas, asignar recursos materiales, proponer identificar y seleccionar, establecer métodos de validación, ajustar especificaciones.                  
                   .col-lg-4.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/28.png') 
 
@@ -83,7 +83,7 @@
                       h4.t3.mb-4 FASE PRUEBAS: 
                       p Esta fase busca detectar fallos cometidos en las etapas anteriores para corregirlos.
 
-                      p Objetivos: realizar los ajustes necesarios para corregir posibles errores o inconsistencias.                  
+                      p #[b Objetivos:] realizar los ajustes necesarios para corregir posibles errores o inconsistencias.                  
                   .col-lg-4.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/29.png') 
 
@@ -93,7 +93,7 @@
                       h4.t3.mb-4 FASE MANTENIMIENTO:  
                       p En esta fase se realizan tres puntos referenciados: mantenimiento correctivo, mantenimiento adaptativo y mantenimiento perfectivo.
 
-                      p Objetivos: operación asegurar que el uso del proyecto es el que se pretendía, mantenimiento.                  
+                      p #[b Objetivos:] operación asegurar que el uso del proyecto es el que se pretendía, mantenimiento.                  
                   .col-lg-4.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/30.png') 
                                                                          
@@ -102,14 +102,14 @@
       h2 1.2  Paradigmas de los modelos de ciclo de vida del #[i software]
                        
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-7.my-3
+      .col-lg-7.my-3.order-1
         p(data-aos="fade-down") Con la finalidad de proporcionar una metodología común entre el cliente y la empresa de #[i software], se utilizan los modelos de ciclos de vida o paradigmas de desarrollo de #[i software] para plasmar las etapas y la documentación necesaria, de manera que cada fase se valide antes de continuar con la siguiente.  
         .row.justify-content-center.align-items-center.bg2          
           .col-md-auto.my-3
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/32.png', alt='')
           .col.my-3
             p(data-aos="fade-down").mb-0 Un modelo de ciclo de vida de #[i software] es una vista de las actividades que ocurren durante el desarrollo de #[i software] e intenta determinar el orden de las etapas involucradas y los criterios de transición asociados entre estas.  
-      .col-lg-5.my-3
+      .col-lg-5.my-3.order-lg-2 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/33.png', alt='')   
 
     .row.justify-content-center.align-items-center.mb-4
@@ -117,21 +117,21 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/34.png', alt='')      
       .col-lg-9.my-3
         p(data-aos="fade-down") Según la norma 1074 IEEE se define al ciclo de vida del #[i software] como “una aproximación lógica a la adquisición, el suministro, el desarrollo, la explotación y el mantenimiento del #[i software]”.
+        
+        p(data-aos="fade-down") La #[em ISO/IEC 12207 Information Technology / Software Life Cycle Processes] señala que es: 
 
-        .bloque-texto-d.color-secundario.p-4
-          .bloque-texto-d__texto.mb-2
-            i.fas.fa-quote-left
-            p Un marco de referencia que contiene los procesos, las actividades y las tareas involucradas en el desarrollo, la explotación y el mantenimiento de un producto de #[em software], abarcando la vida del sistema desde la definición de los requisitos hasta la finalización de su uso (2008).
-            i.fas.fa-quote-right
-          .bloque-texto-d__autor 
-            .h5.mb-0 La #[em ISO/IEC 12207 Information Technology / Software Life Cycle Processes] señala que es: 
+        .bg3.p-4(data-aos="flip-down")
+          p.mb-0(data-aos="fade-down") Un marco de referencia que contiene los procesos, las actividades y las tareas involucradas en el desarrollo, la explotación y el mantenimiento de un producto de #[em software], abarcando la vida del sistema desde la definición de los requisitos hasta la finalización de su uso (2008).
+
+
+    p(data-aos="fade-down").mb-4 Existen modelos preestablecidos con los cuales se pude elaborar un proyecto; a continuación, se mencionan los diferentes paradigmas de modelos de ciclo de vida para desarrollar #[i software].
 
     .row.justify-content-center.mb-4
       .col-lg-5.my-3
         .bg13.p-3.h-100.brad(data-aos="fade-left")
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/38.png', alt='')        
           h4(data-aos="fade-down") #[mark.px-2.t1 Paradigma tradicional]
-          p(data-aos="fade-down") Los paradigmas tradicionales se identifican, fundamentalmente, por ser lineales, es decir, se trata de completar cada proceso de principio a fin, hasta que quede listo para avanzar a la segunda fase del ciclo del software.
+          p(data-aos="fade-down") Los paradigmas tradicionales se identifican, fundamentalmente, por ser lineales, es decir, se trata de completar cada proceso de principio a fin, hasta que quede listo para avanzar a la segunda fase del ciclo del #[i software].
 
           p(data-aos="fade-down") Si bien es verdad que las metodologías actuales están basadas en lo que fueron los paradigmas tradicionales, hoy en día se ha evolucionado, sin embargo, los paradigmas tradicionales se mantienen. 
 
@@ -143,7 +143,7 @@
         .bg14.p-3.mb-4.brad(data-aos="fade-down")
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/39.png', alt='')        
           h4(data-aos="fade-down") #[mark.px-2.t1 Paradigma orientado a objetos]
-          p(data-aos="fade-down") Las etapas de desarrollo de software en el paradigma orientado a objetos, se conforma principalmente por la creación de clases, análisis de requisitos y el diseño. Con este paradigma se pretende que el código fuente sea reutilizable para otros proyectos.                     
+          p(data-aos="fade-down") Las etapas de desarrollo de #[i software] en el paradigma orientado a objetos, se conforma principalmente por la creación de clases, análisis de requisitos y el diseño. Con este paradigma se pretende que el código fuente sea reutilizable para otros proyectos.                     
         .bg15.p-3.brad(data-aos="fade-right")
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/40.png', alt='')        
           h4(data-aos="fade-down") #[mark.px-2.t1 Paradigma de desarrollo ágil]
@@ -156,10 +156,10 @@
 
     TabsB.color-acento-contenido.mb-5(data-aos="fade-right")
       .py-4.py-md-5(titulo="Modelo en cascada" :icono="require('@/assets/curso/temas/41.png')")
-        .row.justify-content-center
+        .row.justify-content-center.px-4
           .col-lg-6.mb-4.mb-md-0
             h4 #[mark.px-2.t1 Modelo en cascada]
-            p Uno de los primeros modelos de ciclo de vida del desarrollo fue establecido por W. Royce en 1970 y es conocido como el “modelo de cascada” (waterfall model). 
+            p Uno de los primeros modelos de ciclo de vida del desarrollo fue establecido por W. Royce en 1970 y es conocido como el “modelo de cascada” (#[i waterfall model]). 
 
             p En su concepción básica, cada una de las actividades genera, como salidas, productos y modelos que son utilizados como entradas para el proceso subsiguiente; esto supone que una actividad debe terminarse (por lo menos, en algún grado) para empezar la siguiente.        
           .col-lg-5
@@ -169,7 +169,7 @@
             img.img-a.img-t(src='@/assets/curso/temas/45.svg', alt='Imagen que presenta el modelo de cascada del ciclo de vida del desarrollo.')      
 
       .py-4.py-md-5(titulo="Modelo espiral" :icono="require('@/assets/curso/temas/42.png')")
-        .row.justify-content-center
+        .row.justify-content-center.px-4
           .col-lg-6.mb-4.mb-md-0
             h4 #[mark.px-2.t1 Modelo espiral]
             p Fue diseñado por Boehm en el año 1988 y se basa en una serie de ciclos repetitivos para ir ganando madurez en el producto final. El espiral se repite las veces que sea necesario hasta que el cliente o el usuario obtenga la satisfacción de sus necesidades.
@@ -182,20 +182,20 @@
             img.img-mov(src='@/assets/curso/temas/46.svg', alt='Imagen que presenta el modelo espiral del ciclo de vida del desarrollo.')
             figcaption Nota. Adaptada de Boehm (2018).   
 
-      .py-4.py-md-5(titulo="Modelo interactivo o por prototipos" :icono="require('@/assets/curso/temas/43.png')")
-        .row.justify-content-center
+      .py-4.py-md-5(titulo="Modelo iterativo o por prototipos" :icono="require('@/assets/curso/temas/43.png')")
+        .row.justify-content-center.px-4
           .col-lg-6.mb-4.mb-md-0
             h4 #[mark.px-2.t1 Modelo iterativo o por prototipos]
             p Este modelo consiste en un procedimiento que permite al equipo de desarrollo diseñar y analizar una aplicación que represente el sistema que será implementado (McCracken y Jackson, 1982).
 
             h5 Objetivos 
 
-            ul.lista-ul.fa-ul.ps-2.mb-0
+            ul.lista-ul--color.fa-ul.ps-2.mb-0
               li 
-                i.far.fa-file-code.color2
+                i.lista-ul__vineta.color1
                 | Son un medio eficaz para aclarar los requisitos de los usuarios e identificar las características de un sistema que deben cambiarse o añadirse. 
               li 
-                i.far.fa-file-code.color2
+                i.lista-ul__vineta.color1
                 | Mediante el prototipo se puede verificar la viabilidad del diseño de un sistema.     
 
             p Las etapas del modelo son:
@@ -205,12 +205,12 @@
                 .lista-ol--cuadro__vineta.t5
                   span 1
                 | Colecta y refinamiento de los requerimientos y proyecto rápido.
-              ul.lista-ul.fa-ul.mb-0.ps-4
+              ul.lista-ul--color.fa-ul.mb-0.ps-4
                 li 
-                  i.far.fa-file-code.color2
+                  i.lista-ul__vineta.color1
                   | Análisis.
                 li 
-                  i.far.fa-file-code.color2
+                  i.lista-ul__vineta.color1
                   | Especificación del prototipo.
               li 
                 .lista-ol--cuadro__vineta.t5
@@ -228,15 +228,15 @@
                 .lista-ol--cuadro__vineta.t5
                   span 5
                 | Refinamiento del prototipo.
-              ul.lista-ul.fa-ul.mb-0.ps-4
+              ul.lista-ul--color.fa-ul.mb-0.ps-4
                 li 
-                  i.far.fa-file-code.color2
+                  i.lista-ul__vineta.color1
                   | Diseño técnico.
                 li 
-                  i.far.fa-file-code.color2
+                  i.lista-ul__vineta.color1
                   | Programación y test.
                 li 
-                  i.far.fa-file-code.color2
+                  i.lista-ul__vineta.color1
                   | Operación y mantenimiento.
               li 
                 .lista-ol--cuadro__vineta.t5
@@ -249,141 +249,176 @@
               span Modelo iterativo o por prototipos         
             img.img-mov(src='@/assets/curso/temas/47.svg', alt='Imagen que presenta las etapas del modelo iterativo o por prototipos.') 
 
-    p(data-aos="fade-down").mb-5 Con respecto a los modelos del ciclo de vida del paradigma ágil, estos se caracterizan por estar basados en etapas del ciclo de vida del software tradicional, pero combinándolas con algunas técnicas, al respecto se pueden revisar los siguientes: 
+    p(data-aos="fade-down").mb-5 Con respecto a los modelos del ciclo de vida del paradigma ágil, estos se caracterizan por estar basados en etapas del ciclo de vida del #[i software] tradicional, pero combinándolas con algunas técnicas, al respecto se pueden revisar los siguientes: 
 
-    AcordionA(tipo="a" clase-tarjeta="tarjeta bg9")(data-aos="fade-left")
-      div(titulo="Modelo Scrum") 
-        p Este modelo se basa en el desarrollo incremental, es decir conforme pasen las fases y la iteración mayor será el tamaño del proyecto que se está desarrollando.
+    .row.justify-content-start.mb-4 
+      .col-auto(data-aos="flip-down")
+        .list
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/icon.svg', alt='')
+          .list__txt.bgicon.p-0.px-4
+            h3.mb-0 Modelo Scrum
 
-        p Los procesos que utiliza son: 
+
+    p(data-aos="fade-down") Este modelo se basa en el desarrollo incremental, es decir conforme pasen las fases y la iteración mayor será el tamaño del proyecto que se está desarrollando.
+
+    .row.justify-content-center.align-items-center.mb-4          
+      .col-lg-5.my-3
+        img.img-a.img-t(src='@/assets/curso/temas/51.png', alt='')      
+
+      .col-lg-7.my-3
+        p(data-aos="fade-down") Los procesos que utiliza son: 
         ol.lista-ol--cuadro.fa-ul
           li 
             .lista-ol--cuadro__vineta.t5
               span 1
-            | Product Backlog.
+            span.fst-italic  Product Backlog.
           li 
             .lista-ol--cuadro__vineta.t5
               span 2
-            | Sprint Backlog.
+            span.fst-italic  Sprint Backlog.
           li 
             .lista-ol--cuadro__vineta.t5
               span 3
-            | Sprint Planning Meeting.
+            span.fst-italic  Sprint Planning Meeting.
           li 
             .lista-ol--cuadro__vineta.t5
               span 4
-            | Daily Scrum.
+            span.fst-italic  Daily Scrum.
           li 
             .lista-ol--cuadro__vineta.t5
               span 5
-            | Sprint Review.
+            span.fst-italic  Sprint Review.
           li 
             .lista-ol--cuadro__vineta.t5
               span 6
-            | Sprint Retrospective.
+            span.fst-italic  Sprint Retrospective.
 
-        p El Scrum consiste en realizar un análisis de los requerimientos del sistema (Product Backlog), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un sprint, o sea, la fase de desarrollo. Posteriormente, los desarrolladores harán lo suyo, se realizarán algunas pruebas y se retroalimentará de acuerdo con lo conseguido al terminar la última fase.
-        h5 Ventajas
-        ul.lista-ul.fa-ul.mb-0.ps-4
+        p(data-aos="fade-down") El Scrum consiste en realizar un análisis de los requerimientos del sistema (#[em Product Backlog]), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un sprint, o sea, la fase de desarrollo. Posteriormente, los desarrolladores harán lo suyo, se realizarán algunas pruebas y se retroalimentará de acuerdo con lo conseguido al terminar la última fase.
+
+    .row.justify-content-center.mb-5          
+      .col-lg-4.my-3
+        .bg16.brad.p-4.h-100(data-aos="fade-left")
+        
+          h5 Ventajas
+          ul.lista-ul.fa-ul.mb-0
+            li 
+              i.far.fa-file-code.color2
+              span #[b Gestión regular de las expectativas del usuario:] los usuarios participan y proponen soluciones.
+            li 
+              i.far.fa-file-code.color2
+              span #[b Resultados anticipados:] no es necesario esperar hasta el final para ver resultados.
+            li 
+              i.far.fa-file-code.color2
+              span #[b Flexibilidad y adaptación:] se adapta a cualquier contexto, área o sector.
+            li 
+              i.far.fa-file-code.color2
+              span #[b Gestión sistemática de riesgos:] los problemas son gestionados en el mismo momento de su aparición.               
+      .col-lg-8.my-3
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 4. 
+          span Modelo ágil Scrum
+        img.img-mov(src='@/assets/curso/temas/50.svg', alt='Imagen que presenta el modeo ágil Scrum.')
+
+
+
+    .row.justify-content-start.my-4 
+      .col-auto(data-aos="flip-down")
+        .list
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/icon.svg', alt='')
+          .list__txt.bgicon.p-0.px-4
+            h3.mb-0 Modelo Kanban"
+    .row.justify-content-center.bg17.p-4.brad.mb-5(data-aos="fade-down")
+      .col-lg-5       
+        p(data-aos="fade-down") David J. Anderson (reconocido como el líder de pensamiento de la adopción del Lean/Kanban para el trabajo de conocimiento), formuló el método Kanban como una aproximación al proceso evolutivo e incremental y al cambio de sistemas para las organizaciones de trabajo. El método está enfocado en llevar a cabo las tareas pendientes y los principios más importantes pueden ser divididos en cuatro principios básicos y seis prácticas.
+
+        p(data-aos="fade-down") El modelo Kanban es uno de los modelos más visuales de las metodologías ágiles; este consiste en la creación de un tablero con etiquetas, donde se seccionan cada una de las fases de su desarrollo, además se clasifican de acuerdo con los equipos de trabajo y se les asignan objetivos a corto, mediano y largo plazo.
+
+        p(data-aos="fade-down") Mediante la metodología japonesa Kanban se:
+
+        p(data-aos="fade-down") Características principales de la programación extrema:
+
+        ol.lista-ol--cuadro.fa-ul
           li 
-            i.far.fa-file-code.color2
-            | Gestión regular de las expectativas del usuario: los usuarios participan y proponen soluciones.
+            .lista-ol--cuadro__vineta.t5
+              span 1
+            | Define el flujo de trabajo.
           li 
-            i.far.fa-file-code.color2
-            | Resultados anticipados: no es necesario esperar hasta el final para ver resultados.
+            .lista-ol--cuadro__vineta.t5
+              span 2
+            | Establecen las fases del ciclo de producción.
           li 
-            i.far.fa-file-code.color2
-            | Flexibilidad y adaptación: se adapta a cualquier contexto, área o sector.
+            .lista-ol--cuadro__vineta.t5
+              span 3
+            span.fst-italic Stop Starting, start finishing.
           li 
-            i.far.fa-file-code.color2
-            | Gestión sistemática de riesgos: los problemas son gestionados en el mismo momento de su aparición.               
-        .row.justify-content-center.mt-5
-          .col-lg-auto
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 4. 
-              span Modelo ágil Scrum
-            img.img-a.img-t(src='@/assets/curso/temas/50.svg', alt='Imagen que presenta el modeo ágil Scrum.')
+            .lista-ol--cuadro__vineta.t5
+              span 4
+            | Tiene un control.                
+      .col-lg-7
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 5. 
+          span Modelo ágil Kanban     
+        img.img-mov(src='@/assets/curso/temas/49.svg', alt='Imagen que presenta el modelo ágil Kanban')
+        figcaption Nota. Adaptada de Anderson.    
 
-      div(titulo="Modelo Kanban")
-        .row.justify-content-center
-          .col-lg-5       
-            p David J. Anderson (reconocido como el líder de pensamiento de la adopción del Lean/Kanban para el trabajo de conocimiento), formuló el método Kanban como una aproximación al proceso evolutivo e incremental y al cambio de sistemas para las organizaciones de trabajo. El método está enfocado en llevar a cabo las tareas pendientes y los principios más importantes pueden ser divididos en cuatro principios básicos y seis prácticas.
 
-            p El modelo Kanban es uno de los modelos más visuales de las metodologías ágiles; este consiste en la creación de un tablero con etiquetas, donde se seccionan cada una de las fases de su desarrollo, además se clasifican de acuerdo con los equipos de trabajo y se les asignan objetivos a corto, mediano y largo plazo.
+    .row.justify-content-start.mb-4.pt-3 
+      .col-auto(data-aos="flip-down")
+        .list
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/icon.svg', alt='')
+          .list__txt.bgicon.p-0.px-4
+            h3.mb-0 Modelo XP o programación extrema"
 
-            p Mediante la metodología japonesa Kanban se:
+    .row.justify-content-center.bg18.p-4.brad(data-aos="fade-left")
+      .col-lg-5
+        p(data-aos="fade-down") La programación extrema o #[em eXtreme Programming] (XP) es un enfoque de la ingeniería de #[em software], formulado por Kent Beck, autor del primer libro sobre este tema: #[em Extreme Programming Explained: Embrace Change] (1999). Esta metodología es adaptable según las necesidades y requerimientos a implementar, además, el cliente se encuentra involucrado en el proceso de desarrollo, lo que hace que el producto pueda ser terminado en un menor tiempo.       
+        p(data-aos="fade-down") Características principales de la programación extrema:
 
-            p Características principales de la programación extrema:
-
-            ol.lista-ol--cuadro.fa-ul
-              li 
-                .lista-ol--cuadro__vineta.t5
-                  span 1
-                | Define el flujo de trabajo.
-              li 
-                .lista-ol--cuadro__vineta.t5
-                  span 2
-                | Establecen las fases del ciclo de producción.
-              li 
-                .lista-ol--cuadro__vineta.t5
-                  span 3
-                | Stop Starting, start finishing.
-              li 
-                .lista-ol--cuadro__vineta.t5
-                  span 4
-                | Tiene un control.                
-          .col-lg-7
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 5. 
-              span Modelo ágil Kanban     
-            img.img-mov(src='@/assets/curso/temas/49.svg', alt='Imagen que presenta el modelo ágil Kanban')
-            figcaption Nota. Adaptada de Anderson.    
-
-      div(titulo="Modelo XP o programación extrema")
-        p La programación extrema o eXtreme Programming (XP) es un enfoque de la ingeniería de software, formulado por Kent Beck, autor del primer libro sobre este tema: Extreme Programming Explained: Embrace Change (1999). Esta metodología es adaptable según las necesidades y requerimientos a implementar, además, el cliente se encuentra involucrado en el proceso de desarrollo, lo que hace que el producto pueda ser terminado en un menor tiempo. 
-        .row.justify-content-center
-          .col-lg-5 
-            p Características principales de la programación extrema:
-
-            ol.lista-ol--cuadro.fa-ul
-              li 
-                .lista-ol--cuadro__vineta.t5
-                  span 1
-                | Tipo de desarrollo iterativo e incremental.
-              li 
-                .lista-ol--cuadro__vineta.t5
-                  span 2
-                | Pruebas unitarias.
-              li 
-                .lista-ol--cuadro__vineta.t5
-                  span 3
-                | Trabajo en equipo.
-              li 
-                .lista-ol--cuadro__vineta.t5
-                  span 4
-                | Trabajo junto al cliente.
-              li 
-                .lista-ol--cuadro__vineta.t5
-                  span 5
-                | Corrección de errores.
-              li 
-                .lista-ol--cuadro__vineta.t5
-                  span 6
-                | Reestructuración del código.
-              li 
-                .lista-ol--cuadro__vineta.t5
-                  span 7
-                | El código es de todos.
-              li 
-                .lista-ol--cuadro__vineta.t5
-                  span 8
-                | El código simple es la clave.                                         
-          .col-lg-7
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 6. 
-              span Modelo XP     
-            img.img-mov(src='@/assets/curso/temas/48.svg', alt='Imagen que presenta el modelo XP.')
-            figcaption Nota. Adaptada de Muradas (2020).
+        ol.lista-ol--cuadro.fa-ul
+          li 
+            .lista-ol--cuadro__vineta.t5
+              span 1
+            | Tipo de desarrollo iterativo e incremental.
+          li 
+            .lista-ol--cuadro__vineta.t5
+              span 2
+            | Pruebas unitarias.
+          li 
+            .lista-ol--cuadro__vineta.t5
+              span 3
+            | Trabajo en equipo.
+          li 
+            .lista-ol--cuadro__vineta.t5
+              span 4
+            | Trabajo junto al cliente.
+          li 
+            .lista-ol--cuadro__vineta.t5
+              span 5
+            | Corrección de errores.
+          li 
+            .lista-ol--cuadro__vineta.t5
+              span 6
+            | Reestructuración del código.
+          li 
+            .lista-ol--cuadro__vineta.t5
+              span 7
+            | El código es de todos.
+          li 
+            .lista-ol--cuadro__vineta.t5
+              span 8
+            | El código simple es la clave.                                         
+      .col-lg-7
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 6. 
+          span Modelo XP     
+        img.img-mov(src='@/assets/curso/temas/48.svg', alt='Imagen que presenta el modelo XP.')
+        figcaption Nota. Adaptada de Muradas (2020).
 
 
 </template>
