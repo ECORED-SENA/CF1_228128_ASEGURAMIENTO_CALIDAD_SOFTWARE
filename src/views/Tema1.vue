@@ -93,7 +93,7 @@
                       h4.t3.mb-4 FASE MANTENIMIENTO:  
                       p En esta fase se realizan tres puntos referenciados: mantenimiento correctivo, mantenimiento adaptativo y mantenimiento perfectivo.
 
-                      p #[b Objetivos:] operación asegurar que el uso del proyecto es el que se pretendía, mantenimiento.                  
+                      p #[b Objetivos:] operación, asegurar que el uso del proyecto es el que se pretendía, mantenimiento.                  
                   .col-lg-4.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/30.png') 
                                                                          
