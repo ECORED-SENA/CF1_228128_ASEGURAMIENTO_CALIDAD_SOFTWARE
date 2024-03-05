@@ -7,7 +7,7 @@
         span 1
       h1 Ciclo de vida del <i>software</i>
 
-    p(data-aos="fade-down").mb-5 También conocido como (#[i SDLC o Systems Development Life Cycle]), es el proceso que se sigue para construir y hacer evolucionar un determinado #[i software]. El ciclo de vida permite iniciar una serie de fases mediante las cuales se procede a la validación y al desarrollo del #[i software] garantizando que se cumplan los requisitos para la aplicación y verificación de los procedimientos de desarrollo; para ello, se utilizan métodos del ciclo del #[i software], que indican distintos pasos a seguir para el desarrollo de un producto.       
+    p(data-aos="fade-down").mb-5 También conocido como (SDLC o #[i Systems Development Life Cycle]), es el proceso que se sigue para construir y hacer evolucionar un determinado #[i software]. El ciclo de vida permite iniciar una serie de fases mediante las cuales se procede a la validación y al desarrollo del #[i software] garantizando que se cumplan los requisitos para la aplicación y verificación de los procedimientos de desarrollo; para ello, se utilizan métodos del ciclo del #[i software], que indican distintos pasos a seguir para el desarrollo de un producto.       
 
     .row.justify-content-center.align-items-center.bg11.px-3(data-aos="fade-left")
       .col-lg-12
@@ -32,7 +32,7 @@
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/25.png', alt='')
 
           h4(data-aos="fade-down") #[mark.px-2.bgw Entregables]           
-          p(data-aos="fade-down") Son los productos intermedios que generan las fases. Pueden ser materiales o inmateriales (documentos, #[i software]). Los entregables permiten evaluar la marcha del proyecto mediante comprobaciones de su adecuación o no a los requisitos funcionales y de condiciones de realización previamente establecido.      
+          p(data-aos="fade-down") Son los productos intermedios que generan las fases. Pueden ser materiales o inmateriales (documentos, #[i software]). Los entregables permiten evaluar la marcha del proyecto mediante comprobaciones de su adecuación o no a los requisitos funcionales y de condiciones de realización previamente establecidos     
 
 
     Separador 
@@ -118,13 +118,13 @@
       .col-lg-9.my-3
         p(data-aos="fade-down") Según la norma 1074 IEEE se define al ciclo de vida del #[i software] como “una aproximación lógica a la adquisición, el suministro, el desarrollo, la explotación y el mantenimiento del #[i software]”.
         
-        p(data-aos="fade-down") La #[em ISO/IEC 12207 Information Technology / Software Life Cycle Processes] señala que es: 
+        p(data-aos="fade-down") La ISO/IEC 12207 #[em Information Technology / Software Life Cycle Processes] señala que es: 
 
         .bg3.p-4(data-aos="flip-down")
           p.mb-0(data-aos="fade-down") Un marco de referencia que contiene los procesos, las actividades y las tareas involucradas en el desarrollo, la explotación y el mantenimiento de un producto de #[em software], abarcando la vida del sistema desde la definición de los requisitos hasta la finalización de su uso (2008).
 
 
-    p(data-aos="fade-down").mb-4 Existen modelos preestablecidos con los cuales se pude elaborar un proyecto; a continuación, se mencionan los diferentes paradigmas de modelos de ciclo de vida para desarrollar #[i software].
+    p(data-aos="fade-down").mb-4 Existen modelos preestablecidos con los cuales se puede elaborar un proyecto; a continuación, se mencionan los diferentes paradigmas de modelos de ciclo de vida para desarrollar #[i software].
 
     .row.justify-content-center.mb-4
       .col-lg-5.my-3
@@ -164,7 +164,6 @@
             p En su concepción básica, cada una de las actividades genera, como salidas, productos y modelos que son utilizados como entradas para el proceso subsiguiente; esto supone que una actividad debe terminarse (por lo menos, en algún grado) para empezar la siguiente.        
           .col-lg-5
             .titulo-sexto.color-acento-contenido
-              h5 Figura 1. 
               span Modelo de cascada del ciclo de vida del desarrollo         
             img.img-a.img-t(src='@/assets/curso/temas/45.svg', alt='Imagen que presenta el modelo de cascada del ciclo de vida del desarrollo.')      
 
@@ -177,7 +176,6 @@
             p En este modelo hay 4 actividades que envuelven a las etapas: planificación, análisis de riesgo, implementación y evaluación. Una de sus principales ventajas es que los riesgos van disminuyendo conforme avanzan los ciclos o interacciones.        
           .col-lg-5
             .titulo-sexto.color-acento-contenido
-              h5 Figura 2. 
               span Modelo espiral del ciclo de vida del desarrollo       
             img.img-mov(src='@/assets/curso/temas/46.svg', alt='Imagen que presenta el modelo espiral del ciclo de vida del desarrollo.')
             figcaption Nota. Adaptada de Boehm (2018).   
@@ -234,7 +232,7 @@
                   | Diseño técnico.
                 li 
                   i.lista-ul__vineta.color1
-                  | Programación y test.
+                  span Programación y #[em test.]
                 li 
                   i.lista-ul__vineta.color1
                   | Operación y mantenimiento.
@@ -245,9 +243,8 @@
                               
           .col-lg-5
             .titulo-sexto.color-acento-contenido
-              h5 Figura 3. 
               span Modelo iterativo o por prototipos         
-            img.img-mov(src='@/assets/curso/temas/47.svg', alt='Imagen que presenta las etapas del modelo iterativo o por prototipos.') 
+            img.img-mov.brad(src='@/assets/curso/temas/47.svg', alt='Imagen que presenta las etapas del modelo iterativo o por prototipos.') 
 
     p(data-aos="fade-down").mb-5 Con respecto a los modelos del ciclo de vida del paradigma ágil, estos se caracterizan por estar basados en etapas del ciclo de vida del #[i software] tradicional, pero combinándolas con algunas técnicas, al respecto se pueden revisar los siguientes: 
 
@@ -295,7 +292,7 @@
               span 6
             span.fst-italic  Sprint Retrospective.
 
-        p(data-aos="fade-down") El Scrum consiste en realizar un análisis de los requerimientos del sistema (#[em Product Backlog]), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un sprint, o sea, la fase de desarrollo. Posteriormente, los desarrolladores harán lo suyo, se realizarán algunas pruebas y se retroalimentará de acuerdo con lo conseguido al terminar la última fase.
+        p(data-aos="fade-down") El Scrum consiste en realizar un análisis de los requerimientos del sistema (#[em Product Backlog]), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un #[em sprint], o sea, la fase de desarrollo. Posteriormente, los desarrolladores harán lo suyo, se realizarán algunas pruebas y se retroalimentará de acuerdo con lo conseguido al terminar la última fase.
 
     .row.justify-content-center.mb-5          
       .col-lg-4.my-3
@@ -317,7 +314,6 @@
               span #[b Gestión sistemática de riesgos:] los problemas son gestionados en el mismo momento de su aparición.               
       .col-lg-8.my-3
         .titulo-sexto.color-acento-contenido
-          h5 Figura 4. 
           span Modelo ágil Scrum
         img.img-mov(src='@/assets/curso/temas/50.svg', alt='Imagen que presenta el modeo ágil Scrum.')
 
@@ -330,7 +326,7 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bgicon.p-0.px-4
-            h3.mb-0 Modelo Kanban"
+            h3.mb-0 Modelo Kanban
     .row.justify-content-center.bg17.p-4.brad.mb-5(data-aos="fade-down")
       .col-lg-5       
         p(data-aos="fade-down") David J. Anderson (reconocido como el líder de pensamiento de la adopción del Lean/Kanban para el trabajo de conocimiento), formuló el método Kanban como una aproximación al proceso evolutivo e incremental y al cambio de sistemas para las organizaciones de trabajo. El método está enfocado en llevar a cabo las tareas pendientes y los principios más importantes pueden ser divididos en cuatro principios básicos y seis prácticas.
@@ -338,9 +334,6 @@
         p(data-aos="fade-down") El modelo Kanban es uno de los modelos más visuales de las metodologías ágiles; este consiste en la creación de un tablero con etiquetas, donde se seccionan cada una de las fases de su desarrollo, además se clasifican de acuerdo con los equipos de trabajo y se les asignan objetivos a corto, mediano y largo plazo.
 
         p(data-aos="fade-down") Mediante la metodología japonesa Kanban se:
-
-        p(data-aos="fade-down") Características principales de la programación extrema:
-
         ol.lista-ol--cuadro.fa-ul
           li 
             .lista-ol--cuadro__vineta.t5
@@ -360,7 +353,6 @@
             | Tiene un control.                
       .col-lg-7
         .titulo-sexto.color-acento-contenido
-          h5 Figura 5. 
           span Modelo ágil Kanban     
         img.img-mov(src='@/assets/curso/temas/49.svg', alt='Imagen que presenta el modelo ágil Kanban')
         figcaption Nota. Adaptada de Anderson.    
@@ -373,7 +365,7 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bgicon.p-0.px-4
-            h3.mb-0 Modelo XP o programación extrema"
+            h3.mb-0 Modelo XP o programación extrema
 
     .row.justify-content-center.bg18.p-4.brad(data-aos="fade-left")
       .col-lg-5
@@ -414,8 +406,7 @@
               span 8
             | El código simple es la clave.                                         
       .col-lg-7
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 6. 
+        .titulo-sexto.color-acento-contenido 
           span Modelo XP     
         img.img-mov(src='@/assets/curso/temas/48.svg', alt='Imagen que presenta el modelo XP.')
         figcaption Nota. Adaptada de Muradas (2020).

@@ -53,8 +53,9 @@
                     img.img-a.img-t(src='@/assets/curso/temas/11.png') 
                   .col-lg-7.col-md-auto
                     .t2.pe-5                     
-                      h4.t3.mb-4 Botón mover
-                      p Cuando se selecciona un objeto en el escenario, habiendo pulsado el botón mover, en el objeto se mostrarán 3 flechas que representan los 3 ejes mencionados anteriormente. Si se da clic sostenido en dichas flechas y se mueve el #[i mouse] se traslada en línea recta el objeto en el escenario en el eje de coordenadas seleccionado, como se representa en la siguiente figura.   
+                      h4.t3.mb-4 Necesario
+                      p Si se tiene alguna duda acerca de la necesidad del requerimiento, se puede preguntar “¿Qué sería lo peor de no incluirlo?” Si no se encuentra una respuesta o cualquier consecuencia, entonces es probable que no sea un requerimiento necesario.
+
 
                 .row.justify-content-center.align-items-center.p-2
                   .col-lg-4.mb-4.mb-md-0
@@ -171,7 +172,6 @@
     .row.justify-content-center
       .col-lg-10(data-aos="fade-down") 
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 2.
           span Requisitos
         .tabla-a.color-acento-contenido.text-center(data-aos="fade-left") 
           table

@@ -140,21 +140,21 @@ export default {
     {
       tema: 'Ingeniería del <i>software</i> - Ciclo de vida',
       referencia:
-        'Universidad Católica de Murcia. (2015). <i>Ingeniería del software - Ciclo de vida - Raquel Martínez<i> [video]. YouTube. ',
+        'Universidad Católica de Murcia. (2015). <i>Ingeniería del software - Ciclo de vida - Raquel Martínez.</i> YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=4tWmULUzVdE&t=199s',
     },
     {
       tema: 'Tipos de requerimientos',
       referencia:
-        'Itunes U – UAEH. (2019). <i>Tipos de requerimientos</i> [video]. YouTube. ',
+        'Itunes U – UAEH. (2019). <i>Tipos de requerimientos.</i> YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=PUyfzEzSUSg',
     },
     {
       tema: 'Requisitos funcionales y no funcionales',
       referencia:
-        'CavernaTech. (2019). <i>Requisitos funcionales y no funcionales</i> [video]. YouTube. ',
+        'CavernaTech. (2019). <i>Requisitos funcionales y no funcionales.</i> YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Lv7XbZtnQ6A',
     },
@@ -193,47 +193,49 @@ export default {
   referencias: [
     {
       referencia:
-        'Boehm, B. W. (1979). A Spiral Model of Software Development and Enhancement. ACM Software Engineering Notes, 11(4), 22-42. ',
+        'Boehm, B. W. (1979). A Spiral Model of Software Development and Enhancement. <i>ACM Software Engineering Notes, 11</i>(4), 22-42. ',
     },
     {
       referencia:
-        'Durán, A., y Bernárdez, B. (2001). Metodología para el análisis de requisitos de sistemas software.',
+        'Durán, A., y Bernárdez, B. (2001). <i>Metodología para el análisis de requisitos de sistemas software</i>.',
     },
     {
       referencia:
-        'Pantaleo, G., y Rinaudo, L. (2018). Ingeniería de software. Alfaomega.',
+        'Pantaleo, G., y Rinaudo, L. (2018). <i>Ingeniería de software</i>. Alfaomega.',
     },
     {
       referencia:
-        'Pantaleo, G., y Rinaudo, L. (2018). Ingeniería de software. Alfaomega.',
+        'Pantaleo, G., y Rinaudo, L. (2018). <i>Ingeniería de software</i>. Alfaomega.',
       link: 'https://www.iso.org/obp/ui/#iso:std:iso-iec:12207:ed-2:v1:en',
     },
     {
       referencia:
-        'McCracken, D., y Jackson, M. A. (1981). “A Minority Dissenting Opinion”. En W. W. Cotterman, J. D. Couger, N. L. Enger, F. Harold (Eds.). Systems Analysis and Design: A Foundation for the 1980s (pp. 551-553). Elsevier.',
+        'McCracken, D., y Jackson, M. A. (1981). “A Minority Dissenting Opinion”. En W. W. Cotterman, J. D. Couger, N. L. Enger, F. Harold (Eds.). <i>Systems Analysis and Design: A Foundation for the 1980s</i> (pp. 551-553). Elsevier.',
     },
     {
       referencia:
         'Penzenstadler, B. (s. f.). Requirements Engineering. CSU Long Beach.',
-      link: 'https://bit.ly/3rtBKXN',
+      link:
+        'http://www.foss2serve.org/index.php/Requirements_Engineering,_CSU_Long_Beach,_Penzenstadler',
     },
     {
       referencia:
-        'Pfleeger, Sh. (2002). Ingeniería del software. Teoría y práctica. Prentice Hall. ',
+        'Pfleeger, Sh. (2002). <i>Ingeniería del software. Teoría y práctica</i>. Prentice Hall. ',
     },
     {
       referencia:
-        'Porfirio, C. (s. f.). Técnicas de priorización: el desafío de conseguir un orden para las funcionalidades. atSistemas - Consultoría it blog. ',
-      link: 'https://bit.ly/3cvumqz',
+        'Porfirio, C. (s. f.). Técnicas de priorización: el desafío de conseguir un orden para las funcionalidades. <i>atSistemas - Consultoría it blog</i>. ',
+      link:
+        'https://www.knowmadmood.com/es/blog/tcnicas-de-priorizacin-el-desafo-de-conseguir-un-orden-para-las-funcionalidades',
     },
     {
       referencia:
-        'Rivadeneira, M., S. (2014). Metodologías ágiles enfocadas al modelado de requerimientos. Informes Científicos Técnicos - UNPA, 5(1), 1-29. ',
+        'Rivadeneira, M., S. (2014). Metodologías ágiles enfocadas al modelado de requerimientos. <i>Informes Científicos Técnicos - UNPA, 5</i>(1), 1-29. ',
       link: 'https://doi.org/10.22305/ict-unpa.v5i1.66 ',
     },
     {
       referencia:
-        'Sommerville I. (2011). Ingeniería del software. Addison-Wesley. ',
+        'Sommerville I. (2011). <i>Ingeniería del software</i>. Addison-Wesley. ',
     },
   ],
   creditos: [
@@ -297,11 +299,6 @@ export default {
         {
           nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {

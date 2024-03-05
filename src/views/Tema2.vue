@@ -22,7 +22,7 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/4.png', alt='')      
 
       .col-lg-7.my-3
-        p(data-aos="fade-down") La etapa de análisis es esencial, debido a que sin esta no se sabe con precisión qué es lo que se necesita y ningún proceso de desarrollo permitirá obtenerlo. El problema que se presenta es que al inicio del desarrollo, el cliente no sepa exactamente lo que necesita, por tanto, se debe averiguar con ayuda de diferentes técnicas.    
+        p(data-aos="fade-down") La etapa de análisis es esencial, debido a que sin esta no se sabe con precisión qué es lo que se necesita y ningún proceso de desarrollo permitirá obtenerlo. El problema que comúnmente se presenta al inicio de la etapa de desarrollo, es que el cliente no sepa exactamente que necesita, por tanto, se debe averiguar con ayuda de diferentes técnicas.    
         .row.justify-content-center.align-items-center.bg3.brad           
           .col-md-auto.my-3
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/5.svg', alt='')
@@ -34,15 +34,14 @@
     .row.justify-content-center
       .col-lg-12(data-aos="fade-down") 
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 1.
           span Actividades y artefactos de la fase de definición de requisitos
         .tabla-a.color-acento-contenido(data-aos="fade-left") 
           table
             thead.bgh    
               tr
-                th FASE
-                th ACTIVIDADES
-                th ARTEFACTOS
+                th Fase
+                th Actividades
+                th Artefactos
             tbody.bgt
               tr
                 td(rowspan='5') Análisis (definición de requisitos).
