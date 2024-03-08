@@ -314,7 +314,7 @@
               span #[b Gestión sistemática de riesgos:] los problemas son gestionados en el mismo momento de su aparición.               
       .col-lg-8.my-3
         .titulo-sexto.color-acento-contenido
-          span Modelo ágil Scrum
+          span #[b Figura 1.] Modelo ágil Scrum
         img.img-mov(src='@/assets/curso/temas/50.svg', alt='Imagen que presenta el modeo ágil Scrum.')
 
 
@@ -353,7 +353,7 @@
             | Tiene un control.                
       .col-lg-7
         .titulo-sexto.color-acento-contenido
-          span Modelo ágil Kanban     
+          span #[b Figura 2.] Modelo ágil Kanban     
         img.img-mov(src='@/assets/curso/temas/49.svg', alt='Imagen que presenta el modelo ágil Kanban')
         figcaption Nota. Adaptada de Anderson.    
 
@@ -407,7 +407,7 @@
             | El código simple es la clave.                                         
       .col-lg-7
         .titulo-sexto.color-acento-contenido 
-          span Modelo XP     
+          span #[b Figura 3.] Modelo XP     
         img.img-mov(src='@/assets/curso/temas/48.svg', alt='Imagen que presenta el modelo XP.')
         figcaption Nota. Adaptada de Muradas (2020).
 

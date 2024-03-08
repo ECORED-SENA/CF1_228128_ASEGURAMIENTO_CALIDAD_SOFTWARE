@@ -34,7 +34,7 @@
     .row.justify-content-center
       .col-lg-12(data-aos="fade-down") 
         .titulo-sexto.color-acento-contenido
-          span Actividades y artefactos de la fase de definición de requisitos
+          span #[b Tabla 1.]  Actividades y artefactos de la fase de definición de requisitos
         .tabla-a.color-acento-contenido(data-aos="fade-left") 
           table
             thead.bgh    

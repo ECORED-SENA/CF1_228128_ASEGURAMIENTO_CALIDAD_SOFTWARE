@@ -172,7 +172,7 @@
     .row.justify-content-center
       .col-lg-10(data-aos="fade-down") 
         .titulo-sexto.color-acento-contenido
-          span Requisitos
+          span #[b Tabla 2.] Requisitos
         .tabla-a.color-acento-contenido.text-center(data-aos="fade-left") 
           table
             thead.bgh    
