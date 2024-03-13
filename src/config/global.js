@@ -114,7 +114,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228128_CF01_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -198,10 +198,6 @@ export default {
     {
       referencia:
         'Durán, A., y Bernárdez, B. (2001). <i>Metodología para el análisis de requisitos de sistemas software</i>.',
-    },
-    {
-      referencia:
-        'Pantaleo, G., y Rinaudo, L. (2018). <i>Ingeniería de software</i>. Alfaomega.',
     },
     {
       referencia:

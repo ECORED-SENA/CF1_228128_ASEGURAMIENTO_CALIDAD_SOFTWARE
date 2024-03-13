@@ -32,7 +32,7 @@
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/25.png', alt='')
 
           h4(data-aos="fade-down") #[mark.px-2.bgw Entregables]           
-          p(data-aos="fade-down") Son los productos intermedios que generan las fases. Pueden ser materiales o inmateriales (documentos, #[i software]). Los entregables permiten evaluar la marcha del proyecto mediante comprobaciones de su adecuación o no a los requisitos funcionales y de condiciones de realización previamente establecidos     
+          p(data-aos="fade-down") Son los productos intermedios que generan las fases. Pueden ser materiales o inmateriales (documentos, #[i software]). Los entregables permiten evaluar la marcha del proyecto mediante comprobaciones de su adecuación o no a los requisitos funcionales y de condiciones de realización previamente establecidos.     
 
 
     Separador 
