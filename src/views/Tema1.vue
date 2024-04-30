@@ -7,7 +7,7 @@
         span 1
       h1 Ciclo de vida del <i>software</i>
 
-    p(data-aos="fade-down").mb-5 También conocido como (SDLC o #[i Systems Development Life Cycle]), es el proceso que se sigue para construir y hacer evolucionar un determinado #[i software]. El ciclo de vida permite iniciar una serie de fases mediante las cuales se procede a la validación y al desarrollo del #[i software] garantizando que se cumplan los requisitos para la aplicación y verificación de los procedimientos de desarrollo; para ello, se utilizan métodos del ciclo del #[i software], que indican distintos pasos a seguir para el desarrollo de un producto.       
+    p(data-aos="fade-down").mb-5 También conocido como SDLC o #[i Systems Development Life Cycle], es el proceso que se sigue para construir y hacer evolucionar un determinado #[i software]. El ciclo de vida permite iniciar una serie de fases mediante las cuales se procede a la validación y al desarrollo del #[i software] garantizando que se cumplan los requisitos para la aplicación y verificación de los procedimientos de desarrollo; para ello, se utilizan métodos del ciclo del #[i software], que indican distintos pasos a seguir para el desarrollo de un producto.       
 
     .row.justify-content-center.align-items-center.bg11.px-3(data-aos="fade-left")
       .col-lg-12
@@ -73,7 +73,7 @@
                       h4.t3.mb-4 FASE DISEÑO:  
                       p En esta fase se estudian posibles opciones de implementación para el #[i software] que hay que construir, estructura general del mismo.
 
-                      p #[b Objetivos:] identificar soluciones tecnológicas, asignar recursos materiales, proponer identificar y seleccionar, establecer métodos de validación, ajustar especificaciones.                  
+                      p #[b Objetivos:] identificar soluciones tecnológicas, asignar recursos materiales, proponer, identificar y seleccionar, establecer métodos de validación, ajustar especificaciones.                  
                   .col-lg-4.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/28.png') 
 
@@ -184,7 +184,7 @@
         .row.justify-content-center.px-4
           .col-lg-6.mb-4.mb-md-0
             h4 #[mark.px-2.t1 Modelo iterativo o por prototipos]
-            p Este modelo consiste en un procedimiento que permite al equipo de desarrollo diseñar y analizar una aplicación que represente el sistema que será implementado (McCracken y Jackson, 1982).
+            p Este modelo consiste en un procedimiento que permite al equipo de desarrollo, diseñar y analizar una aplicación que represente el sistema que será implementado (McCracken y Jackson, 1982).
 
             h5 Objetivos 
 
@@ -255,10 +255,10 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bgicon.p-0.px-4
-            h3.mb-0 Modelo Scrum
+            h3.mb-0 Modelo #[i Scrum]
 
 
-    p(data-aos="fade-down") Este modelo se basa en el desarrollo incremental, es decir conforme pasen las fases y la iteración mayor será el tamaño del proyecto que se está desarrollando.
+    p(data-aos="fade-down") Este modelo se basa en el desarrollo incremental, es decir, conforme pasen las fases y la iteración, mayor será el tamaño del proyecto que se está desarrollando.
 
     .row.justify-content-center.align-items-center.mb-4          
       .col-lg-5.my-3
@@ -292,7 +292,7 @@
               span 6
             span.fst-italic  Sprint Retrospective.
 
-        p(data-aos="fade-down") El Scrum consiste en realizar un análisis de los requerimientos del sistema (#[em Product Backlog]), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un #[em sprint], o sea, la fase de desarrollo. Posteriormente, los desarrolladores harán lo suyo, se realizarán algunas pruebas y se retroalimentará de acuerdo con lo conseguido al terminar la última fase.
+        p(data-aos="fade-down") El #[i Scrum] consiste en realizar un análisis de los requerimientos del sistema (#[em Product Backlog]), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un #[em sprint], o sea, la fase de desarrollo. Posteriormente, los desarrolladores harán lo suyo, se realizarán algunas pruebas y se retroalimentará de acuerdo con lo conseguido al terminar la última fase.
 
     .row.justify-content-center.mb-5          
       .col-lg-4.my-3
@@ -314,7 +314,7 @@
               span #[b Gestión sistemática de riesgos:] los problemas son gestionados en el mismo momento de su aparición.               
       .col-lg-8.my-3
         .titulo-sexto.color-acento-contenido
-          span #[b Figura 1.] Modelo ágil Scrum
+          span #[b Figura 1.] Modelo ágil #[i Scrum]
         img.img-mov(src='@/assets/curso/temas/50.svg', alt='Imagen que presenta el modeo ágil Scrum.')
 
 

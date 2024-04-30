@@ -173,7 +173,7 @@
       .col-lg-10(data-aos="fade-down") 
         .titulo-sexto.color-acento-contenido
           span #[b Tabla 2.] Requisitos
-        .tabla-a.color-acento-contenido.text-center(data-aos="fade-left") 
+        .tabla-a.color-acento-contenido.text-center.mb-4(data-aos="fade-left") 
           table
             thead.bgh    
               tr
@@ -186,8 +186,7 @@
               tr
                 td Se requiere un listado de clientes por zona.
                 td El lenguaje de programación debe ser Java. 
-              tr
-                td(colspan='2') Se puede ampliar el tema de requisitos funcionales y no funcionales en los videos que se proponen dentro del material complementario.
+        p Se puede ampliar el tema de requisitos funcionales y no funcionales en los videos que se proponen dentro del material complementario.
                                     
 </template>
 

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Ingeniería de requisitos',
     descripcionCurso:
-      'En este componente formativo se abordan los saberes de ingeniería de requisitos: ciclo de vida del <i>software</i> fases y objetivos, modelos, características, caracterización de la fase de definición de requisitos y herramientas para el uso de captura de requisitos que se usan para el desarrollo del <i>software</i>.',
+      'En este componente formativo se abordan los saberes de ingeniería de requisitos: ciclo de vida del <i>software,</i> fases y objetivos, modelos, características, caracterización de la fase de definición de requisitos y herramientas para el uso de captura de requisitos que se usan para el desarrollo del <i>software</i>.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -154,7 +154,7 @@ export default {
     {
       tema: 'Requisitos funcionales y no funcionales',
       referencia:
-        'CavernaTech. (2019). <i>Requisitos funcionales y no funcionales.</i> YouTube. ',
+        'CavernaTech. (2019). <i>DEFINICION de Requerimientos (FUNCIONALES y NO FUNCIONALES) de Software.</i> YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Lv7XbZtnQ6A',
     },
@@ -202,7 +202,6 @@ export default {
     {
       referencia:
         'Pantaleo, G., y Rinaudo, L. (2018). <i>Ingeniería de software</i>. Alfaomega.',
-      link: 'https://www.iso.org/obp/ui/#iso:std:iso-iec:12207:ed-2:v1:en',
     },
     {
       referencia:
